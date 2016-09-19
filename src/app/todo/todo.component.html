@@ -1,0 +1,6 @@
+<p [innerHTML]="oldText"></p>
+{{ myText }}!<br>
+  <form method="GET" (submit)="onSubmit()">
+  	<input type="text" name="myText" [(ngModel)]="myText">
+  	<input type="submit">
+	</form>
